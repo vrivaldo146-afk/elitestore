@@ -98,7 +98,7 @@ config.set(null, "microdata", {"waitTimeMs":500});
 config.set("1858497074704961", "prohibitedSources", {"prohibitedSources":[]});
 fbq.loadPlugin("prohibitedsources");
 instance.optIn("1858497074704961", "ProhibitedSources", true);
-config.set("1858497074704961", "unwantedData", {"blacklisted_keys":{"ViewContent":{"cd":[],"url":["event_url","traffic_source"]},"PageView":{"cd":[],"url":["traffic_source","event_url"]}},"sensitive_keys":{}});
+config.set("1858497074704961", "unwantedData", {"blacklisted_keys":{"ViewContent":{"cd":[],"url":["event_url","traffic_source"]},"PageView":{"cd":[],"url":["event_url","traffic_source"]}},"sensitive_keys":{}});
 fbq.loadPlugin("unwanteddata");
 instance.optIn("1858497074704961", "UnwantedData", true);
 config.set("1858497074704961", "IABPCMAEBridge", {"enableAutoEventId":true});
